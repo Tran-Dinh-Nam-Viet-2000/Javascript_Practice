@@ -53,7 +53,7 @@ setInterval(() => {
 }, 500);
  */
 
-//DOM EVENT
+/**DOM EVENT
 const buttons = document.querySelectorAll('button');
 const pElement = document.querySelector('.text-p');
 buttons.forEach((element, index) =>
@@ -147,3 +147,4 @@ buttonElement.onclick = function(e){
     e.stopPropagation(); //Click là thẻ con của thẻ Submit, nên muốn click vào button thì chỉ hiển thị chữ "Click"
     console.log('Click');
 }
+*/
