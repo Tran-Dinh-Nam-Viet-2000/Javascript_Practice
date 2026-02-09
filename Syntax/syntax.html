@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .color1 
+        {
+            color: red;
+        }
+
+        .color2 
+        {
+            color: orange;
+        }
+
+        .color3 
+        {
+            color: green;
+        }
+
+        button {
+            background-color: #f05123;
+            padding: 9px 16px;
+            border-radius: 999px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box-1 box-2">
+        
+    </div>
+
+    <ul class="courses-list">
+
+    </ul>
+
+    <!-- <button> Heading 1</button>
+    <button> Heading 2</button>
+    <button> Heading 3</button> -->
+
+    <!-- <button>Submit</button>
+    <p class="text-p"></p> -->
+
+    <input type="text"></input>
+
+    <input type="checkbox"></input>
+    <br>
+    <a href="https://google.com.vn">Google</a>
+    <br>
+    <a href="https://youtube.com.vn">Youtube</a>
+
+    <div class="testSubmit">
+        Submit
+        <button class="testBtn"> Click </button>
+    </div>
+</body>
+
+<!-- <script src="Html_DOM.js"></script>
+<script src="Callback.js"></script>
+<script src="JSON.js"></script> -->
+<script src="Promises.js"></script>
+<script>
+    // function calAge(inputDate){
+    //     if(inputDate == ''){
+    //         return "Input a date!!"
+    //     } else if(!/^\d{4}-\d{2}-\d{2}$/.test(inputDate)){
+    //         return "Date is not in the correct format"
+    //     }
+
+    //     let date = new Date(inputDate);
+    //     let nowDate = new Date();
+
+    //     //Calculator age
+    //     let age = nowDate.getFullYear() - date.getFullYear();
+
+    //     let checkBirthday = (nowDate.getMonth() === date.getMonth() && nowDate.getDate() >= date.getDate()) || nowDate.getMonth() > date.getMonth(); 
+    //     if (!checkBirthday) age--;
+
+    //     //Check age 18
+    //     if (age < 18)
+    //     {
+    //         return "Under 18 age";
+    //     } else
+    //     {
+    //         return "Over 18 age"
+    //     }
+
+    //     return age;
+    // }
+
+    // function calDateFromAndDateTo(inputDateFrom, inputDateTo){
+    //     if(inputDateFrom == undefined || inputDateTo == undefined) return "Input invalid";
+    //     //DateFrom and DateTo
+    //     let dateFrom = new Date(inputDateFrom);
+    //     let dateTo = new Date(inputDateTo);
+        
+    //     //Calculator date from and date to
+    //     let countDate = dateTo.getTime() - dateFrom.getTime();
+    //     let result = Math.floor(countDate / (1000 * 60 * 60 * 24));
+    //     return titleH2.innerHTML = `<h2 style="color: black">${result} days</h2>`;
+    // }
+
+    // function checkFlightDate(inputDate){
+    //     let fightDate = new Date(inputDate);
+    //     let nowDate = new Date();
+    //     let checkFight = fightDate.getDate() >= nowDate.getDate() && fightDate.getMonth() >= nowDate.getMonth() && fightDate.getFullYear() >= nowDate.getFullYear();
+    //     if(!checkFight) return titleH2.innerHTML = `<h2 style="color: black">The fight date does not exists</h2>`; 
+    //     return titleH2.innerHTML = `<h2 style="color: black">The fight date exists</h2>`;
+    // }
+
+    // function isValidBirthDate(inputDate){
+    //     let birthDate = new Date(inputDate);
+    //     let nowDate = new Date();
+
+    //     if(birthDate.getDate() >= nowDate.getDate() && birthDate.getMonth() >= nowDate.getMonth() && birthDate.getFullYear() >= nowDate.getFullYear()){
+    //         return titleH2.innerHTML = `<h2 style="color: black">The birth date is later than the current date</h2>`
+    //     }
+
+    //     return titleH2.innerHTML = `<h2 style="color: black">The birth date is not earlier than the current date</h2>`
+    // }
+
+    // function compareTwoDate(inputDate1, inputDate2){
+    //     let date1 = new Date(inputDate1);
+    //     let date2 = new Date(inputDate2);
+
+    //     if(date1.getTime() > date2.getTime()){
+    //         return titleH2.innerHTML = `<h2 style="color: black">The date 1 is later than the date 2</h2>`;
+    //     } else {
+    //         return titleH2.innerHTML = `<h2 style="color: black">The date 2 is later than the date 1</h2>`;
+    //     }
+    // }
+
+    // inputKey.addEventListener("keydown", function(e){
+    //     if(e.key == "Enter"){
+    //         titleH2.innerHTML = `<h2 style="color: black">${calAge(inputKey.value)}</h2>`
+    //     }
+    // });
+
+    // function Person(name, age){
+    //     this.fullName = name;
+    //     this.age = age;
+    //     this.Talk = function a (){
+    //         if(name == ''){
+    //             return "Not found";
+    //         } else{
+    //             return "Hello"
+    //         }
+    //     }
+    // }
+
+</script>
+</html>
