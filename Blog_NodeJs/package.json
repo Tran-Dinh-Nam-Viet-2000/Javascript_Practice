@@ -1,0 +1,19 @@
+{
+    "name": "blog_nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "viettdn",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.2.1",
+        "express-handlebars": "^8.0.6"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}
