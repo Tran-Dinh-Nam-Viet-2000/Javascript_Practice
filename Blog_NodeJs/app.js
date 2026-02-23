@@ -18,10 +18,12 @@ app.set('views', path.join(__dirname, '\\views')); //Trỏ đến folder views
 
 app.get('/', (req, res) => {
   res.render('home')
-})
+});
 
 app.get('/news', (req, res) => {
   res.render('news')
-})
+});
 
-app.listen(3000);
+app.listen(3000, () => {
+  console.log("My website: http://localhost:3000/")
+});
